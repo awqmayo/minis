@@ -1,0 +1,74 @@
+h1{
+	text-align:center;
+}
+
+h2{
+	text-align:center;
+}
+h3{
+	text-align:center;
+}
+h4{
+	text-align: center;
+}
+
+body{
+	
+}
+
+
+.nopad{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.transform{
+	-webkit-transform:rotate(180deg);
+	-moz-transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+	-o-transform: rotate(180deg);
+	transform:rotate(180deg);
+}
+
+.black{
+	background-color: black;
+	color:white;
+	height:400px;
+}
+
+.zoom:hover {
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.rCorners{
+	border-radius: 700px;
+}	
+
+.pad{
+	margin-top:20px;
+	margin-bottom:20px;
+}
+
+hr { 
+	margin-top:5px;
+	margin-bottom:5px;
+	font-weight: bold;	
+	border-color: black;
+	width:12%; 
+	height:3px; 
+}
+
+.parallax { 
+    /* The image used */
+    background-image: url("img_parallax.jpg");
+
+    /* Set a specific height */
+    height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
